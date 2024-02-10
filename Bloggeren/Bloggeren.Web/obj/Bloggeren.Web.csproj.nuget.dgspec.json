@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alper\\Documents\\GitHub\\.NET_PROJECTS\\Bloggeren\\Bloggeren.Web\\Bloggeren.Web.csproj": {}
+    "C:\\Users\\alper\\Documents\\GitHub\\.NET\\Bloggeren\\Bloggeren.Web\\Bloggeren.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alper\\Documents\\GitHub\\.NET_PROJECTS\\Bloggeren\\Bloggeren.Web\\Bloggeren.Web.csproj": {
+    "C:\\Users\\alper\\Documents\\GitHub\\.NET\\Bloggeren\\Bloggeren.Web\\Bloggeren.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alper\\Documents\\GitHub\\.NET_PROJECTS\\Bloggeren\\Bloggeren.Web\\Bloggeren.Web.csproj",
+        "projectUniqueName": "C:\\Users\\alper\\Documents\\GitHub\\.NET\\Bloggeren\\Bloggeren.Web\\Bloggeren.Web.csproj",
         "projectName": "Bloggeren.Web",
-        "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\.NET_PROJECTS\\Bloggeren\\Bloggeren.Web\\Bloggeren.Web.csproj",
+        "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\.NET\\Bloggeren\\Bloggeren.Web\\Bloggeren.Web.csproj",
         "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alper\\Documents\\GitHub\\.NET_PROJECTS\\Bloggeren\\Bloggeren.Web\\obj\\",
+        "outputPath": "C:\\Users\\alper\\Documents\\GitHub\\.NET\\Bloggeren\\Bloggeren.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alper\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,18 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

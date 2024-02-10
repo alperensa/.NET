@@ -1,7 +1,13 @@
+using Bloggeren.Web.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<BloggerenDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("BloggerenDbConnectionString")));
 
 var app = builder.Build();
 
